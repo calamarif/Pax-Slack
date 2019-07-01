@@ -54,7 +54,7 @@ def get_name_of_datasource(auth_token,paxata_url,libraryId):
 def main():
     paxata_token = "fbf4f53e82544f3c9dfdbb0aa3337965"
     paxata_url = "https://dataprep.paxata.com"
-    tag = "Caroline"
+    tag = "Slack"
     auth_token = HTTPBasicAuth("",paxata_token)    
     tagged_datasets = get_tagged_library_items(auth_token,paxata_url,tag)
 
